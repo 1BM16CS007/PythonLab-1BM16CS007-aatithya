@@ -1,4 +1,4 @@
-def pointFibonacciNumbers(n):
+def printFibonacciNumbers(n):
     f1=0
     f2=1
     for x in range(0,n):
@@ -6,5 +6,5 @@ def pointFibonacciNumbers(n):
         next=f1+f2
         f1=f2
         f2=next
-    n=int(input(ënter value of n:"))
-    printFibonacciNumbers(n)
+n=int(input("ënter value of n:"))
+printFibonacciNumbers(n)
